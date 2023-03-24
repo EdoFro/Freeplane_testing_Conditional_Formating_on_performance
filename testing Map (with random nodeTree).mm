@@ -19,7 +19,7 @@
             <attribute_compare_condition OBJECT="org.freeplane.features.format.FormattedNumber|3" ATTRIBUTE="status" COMPARATION_RESULT="0" SUCCEED="true"/>
         </conditional_style>
     </conditional_styles>
-    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -104,7 +104,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="set new test tree" POSITION="right" ID="ID_1055165939" CREATED="1599320624665" MODIFIED="1599482902484">
 <edge COLOR="#7c0000"/>
@@ -166,7 +165,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="using option 2 (or any text in inputbox)" ID="ID_464300939" CREATED="1599320020437" MODIFIED="1599483125245"><richcontent TYPE="DETAILS">
@@ -181,7 +179,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -197,7 +194,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="manage conditional styles to map" ID="ID_1731360956" CREATED="1599318575954" MODIFIED="1599320190866" LINK="menuitem:_ManageConditionalStylesAction"><richcontent TYPE="DETAILS">
 
@@ -429,11 +425,11 @@
 </node>
 <node TEXT="randomTree" FOLDED="true" POSITION="right" ID="ID_1247834476" CREATED="1599488228582" MODIFIED="1599488228587">
 <edge COLOR="#0000ff"/>
-<node TEXT="nodo N.1" ID="ID_219436002" CREATED="1599488228590" MODIFIED="1599488228593">
+<node TEXT="nodo N.1" ID="ID_219436002" CREATED="1599488228590" MODIFIED="1602510992008" STYLE="oval" BORDER_WIDTH="3.0 px" BORDER_DASH_LIKE_EDGE="true">
 <attribute NAME="status" VALUE="1" OBJECT="org.freeplane.features.format.FormattedNumber|1"/>
-<node TEXT="nodo N.1.1" ID="ID_1163184023" CREATED="1599488228593" MODIFIED="1599488228595">
-<node TEXT="nodo N.1.1.1" ID="ID_89818931" CREATED="1599488228595" MODIFIED="1599488228598">
-<attribute NAME="status" VALUE="1" OBJECT="org.freeplane.features.format.FormattedNumber|1"/>
+<node TEXT="nodo N.1.1" FOLDED="true" ID="ID_1163184023" CREATED="1599488228593" MODIFIED="1599488228595">
+<node TEXT="nodo N.1.1.1" ID="ID_89818931" CREATED="1599488228595" MODIFIED="1599520560553">
+<attribute NAME="status" VALUE="1" OBJECT="org.freeplane.features.format.FormattedNumber|1|#0.####"/>
 <node TEXT="nodo N.1.1.1.1" ID="ID_1381952333" CREATED="1599488228599" MODIFIED="1599488228600">
 <node TEXT="nodo N.1.1.1.1.1" ID="ID_1378493820" CREATED="1599488228601" MODIFIED="1599488228603">
 <attribute NAME="status" VALUE="1" OBJECT="org.freeplane.features.format.FormattedNumber|1"/>
@@ -455,8 +451,8 @@
 </node>
 </node>
 <node TEXT="nodo N.1.1.1.2" ID="ID_1175043572" CREATED="1599488228622" MODIFIED="1599488228623">
-<node TEXT="nodo N.1.1.1.2.1" ID="ID_1305587921" CREATED="1599488228623" MODIFIED="1599488228626">
-<attribute NAME="status" VALUE="2" OBJECT="org.freeplane.features.format.FormattedNumber|2"/>
+<node TEXT="nodo N.1.1.1.2.1" ID="ID_1305587921" CREATED="1599488228623" MODIFIED="1600739653197">
+<attribute NAME="status" VALUE="org.freeplane.plugin.script.proxy.ConvertibleNumber|3" OBJECT="org.freeplane.features.format.FormattedObject|java.lang.String&amp;#x7c;org.freeplane.plugin.script.proxy.ConvertibleNumber&amp;#x7c;3|number:decimal:#0.####"/>
 <node TEXT="nodo N.1.1.1.2.1.1" ID="ID_325331475" CREATED="1599488228626" MODIFIED="1599488228628"/>
 <node TEXT="nodo N.1.1.1.2.1.2" ID="ID_41045662" CREATED="1599488228628" MODIFIED="1599488228632">
 <attribute NAME="status" VALUE="2" OBJECT="org.freeplane.features.format.FormattedNumber|2"/>
@@ -476,8 +472,8 @@
 <node TEXT="nodo N.1.1.1.3" ID="ID_1200376892" CREATED="1599488228642" MODIFIED="1599488228645">
 <attribute NAME="status" VALUE="3" OBJECT="org.freeplane.features.format.FormattedNumber|3"/>
 <node TEXT="nodo N.1.1.1.3.1" ID="ID_226922678" CREATED="1599488228646" MODIFIED="1599488228647">
-<node TEXT="nodo N.1.1.1.3.1.1" ID="ID_1902715316" CREATED="1599488228647" MODIFIED="1599488228650">
-<attribute NAME="status" VALUE="2" OBJECT="org.freeplane.features.format.FormattedNumber|2"/>
+<node TEXT="nodo N.1.1.1.3.1.1" ID="ID_1902715316" CREATED="1599488228647" MODIFIED="1600739524778">
+<attribute NAME="status" VALUE="1" OBJECT="org.freeplane.features.format.FormattedNumber|1|#0.####"/>
 </node>
 </node>
 <node TEXT="nodo N.1.1.1.3.2" ID="ID_1742175820" CREATED="1599488228651" MODIFIED="1599488228653">
@@ -487,12 +483,12 @@
 </node>
 </node>
 <node TEXT="nodo N.1.2" ID="ID_552726147" CREATED="1599488228653" MODIFIED="1599488228654"/>
-<node TEXT="nodo N.1.3" ID="ID_430969122" CREATED="1599488228655" MODIFIED="1599488228656">
-<node TEXT="nodo N.1.3.1" ID="ID_1901060564" CREATED="1599488228656" MODIFIED="1599488228658">
-<attribute NAME="status" VALUE="1" OBJECT="org.freeplane.features.format.FormattedNumber|1"/>
+<node TEXT="nodo N.1.3" FOLDED="true" ID="ID_430969122" CREATED="1599488228655" MODIFIED="1599488228656">
+<node TEXT="nodo N.1.3.1" ID="ID_1901060564" CREATED="1599488228656" MODIFIED="1599518941983">
+<attribute NAME="status" VALUE="org.freeplane.plugin.script.proxy.ConvertibleNumber|3" OBJECT="org.freeplane.features.format.FormattedObject|java.lang.String&amp;#x7c;org.freeplane.plugin.script.proxy.ConvertibleNumber&amp;#x7c;3|number:decimal:#0.####"/>
 </node>
 <node TEXT="nodo N.1.3.2" ID="ID_1016817221" CREATED="1599488228659" MODIFIED="1599488228660">
-<node TEXT="nodo N.1.3.2.1" ID="ID_159693357" CREATED="1599488228660" MODIFIED="1599488228661">
+<node TEXT="nodo N.1.3.2.1" FOLDED="true" ID="ID_159693357" CREATED="1599488228660" MODIFIED="1599488228661">
 <node TEXT="nodo N.1.3.2.1.1" ID="ID_1689718754" CREATED="1599488228662" MODIFIED="1599488228664">
 <attribute NAME="status" VALUE="3" OBJECT="org.freeplane.features.format.FormattedNumber|3"/>
 <node TEXT="nodo N.1.3.2.1.1.1" ID="ID_1043466774" CREATED="1599488228664" MODIFIED="1599488228666"/>
@@ -506,20 +502,20 @@
 <node TEXT="nodo N.1.3.2.1.2.2" ID="ID_481137973" CREATED="1599488228673" MODIFIED="1599488228675"/>
 </node>
 </node>
-<node TEXT="nodo N.1.3.2.2" ID="ID_1526351096" CREATED="1599488228675" MODIFIED="1599488228678">
-<attribute NAME="status" VALUE="3" OBJECT="org.freeplane.features.format.FormattedNumber|3"/>
+<node TEXT="nodo N.1.3.2.2" ID="ID_1526351096" CREATED="1599488228675" MODIFIED="1599519782634">
+<attribute NAME="status" VALUE="org.freeplane.plugin.script.proxy.ConvertibleNumber|2" OBJECT="org.freeplane.features.format.FormattedObject|java.lang.String&amp;#x7c;org.freeplane.plugin.script.proxy.ConvertibleNumber&amp;#x7c;2|number:decimal:#0.####"/>
 </node>
 </node>
 </node>
 </node>
-<node TEXT="nodo N.2" ID="ID_1349813894" CREATED="1599488228679" MODIFIED="1599488228680">
+<node TEXT="nodo N.2" ID="ID_1349813894" CREATED="1599488228679" MODIFIED="1602510992013" STYLE="oval" BORDER_WIDTH="3.0 px" BORDER_DASH_LIKE_EDGE="true">
 <node TEXT="nodo N.2.1" ID="ID_37751869" CREATED="1599488228680" MODIFIED="1599488228681"/>
-<node TEXT="nodo N.2.2" ID="ID_288794229" CREATED="1599488228682" MODIFIED="1599488228683">
+<node TEXT="nodo N.2.2" ID="ID_288794229" CREATED="1599488228682" MODIFIED="1602510804961">
 <node TEXT="nodo N.2.2.1" ID="ID_641855968" CREATED="1599488228683" MODIFIED="1599488228685"/>
 <node TEXT="nodo N.2.2.2" ID="ID_1003449704" CREATED="1599488228685" MODIFIED="1599488228688">
 <attribute NAME="status" VALUE="2" OBJECT="org.freeplane.features.format.FormattedNumber|2"/>
-<node TEXT="nodo N.2.2.2.1" ID="ID_145923673" CREATED="1599488228688" MODIFIED="1599488228690">
-<attribute NAME="status" VALUE="2" OBJECT="org.freeplane.features.format.FormattedNumber|2"/>
+<node TEXT="nodo N.2.2.2.1" ID="ID_145923673" CREATED="1599488228688" MODIFIED="1599520521852">
+<attribute NAME="status" VALUE="org.freeplane.plugin.script.proxy.ConvertibleNumber|1" OBJECT="org.freeplane.features.format.FormattedObject|java.lang.String&amp;#x7c;org.freeplane.plugin.script.proxy.ConvertibleNumber&amp;#x7c;1|number:decimal:#0.####"/>
 <node TEXT="nodo N.2.2.2.1.1" ID="ID_1956915555" CREATED="1599488228691" MODIFIED="1599488228693">
 <attribute NAME="status" VALUE="1" OBJECT="org.freeplane.features.format.FormattedNumber|1"/>
 <node TEXT="nodo N.2.2.2.1.1.1" ID="ID_556120013" CREATED="1599488228693" MODIFIED="1599488228695"/>
@@ -539,81 +535,6 @@
 <attribute NAME="status" VALUE="2" OBJECT="org.freeplane.features.format.FormattedNumber|2"/>
 </node>
 </node>
-</node>
-</node>
-<node TEXT="output Test 2" FOLDED="true" POSITION="right" ID="ID_1068417785" CREATED="1599490421049" MODIFIED="1599490421052">
-<edge COLOR="#7c7c00"/>
-<node TEXT="nodo N.1" ID="ID_125422699" CREATED="1599488228590" MODIFIED="1599488228593">
-<attribute NAME="status" VALUE="1" OBJECT="org.freeplane.features.format.FormattedNumber|1"/>
-<node TEXT="nodo N.1.1.1" ID="ID_978109845" CREATED="1599488228595" MODIFIED="1599488228598">
-<attribute NAME="status" VALUE="1" OBJECT="org.freeplane.features.format.FormattedNumber|1"/>
-<node TEXT="nodo N.1.1.1.1.1" ID="ID_160910916" CREATED="1599488228601" MODIFIED="1599488228603">
-<attribute NAME="status" VALUE="1" OBJECT="org.freeplane.features.format.FormattedNumber|1"/>
-<node TEXT="nodo N.1.1.1.1.1.2" ID="ID_1760903709" CREATED="1599488228605" MODIFIED="1599488228608">
-<attribute NAME="status" VALUE="2" OBJECT="org.freeplane.features.format.FormattedNumber|2"/>
-</node>
-</node>
-<node TEXT="nodo N.1.1.1.1.2.1" ID="ID_318358191" CREATED="1599488228612" MODIFIED="1599488228615">
-<attribute NAME="status" VALUE="2" OBJECT="org.freeplane.features.format.FormattedNumber|2"/>
-</node>
-<node TEXT="nodo N.1.1.1.1.3" ID="ID_1777868022" CREATED="1599488228619" MODIFIED="1599488228622">
-<attribute NAME="status" VALUE="3" OBJECT="org.freeplane.features.format.FormattedNumber|3"/>
-</node>
-<node TEXT="nodo N.1.1.1.2.1" ID="ID_340630306" CREATED="1599488228623" MODIFIED="1599488228626">
-<attribute NAME="status" VALUE="2" OBJECT="org.freeplane.features.format.FormattedNumber|2"/>
-<node TEXT="nodo N.1.1.1.2.1.2" ID="ID_604056158" CREATED="1599488228628" MODIFIED="1599488228632">
-<attribute NAME="status" VALUE="2" OBJECT="org.freeplane.features.format.FormattedNumber|2"/>
-</node>
-<node TEXT="nodo N.1.1.1.2.1.3" ID="ID_1180594135" CREATED="1599488228632" MODIFIED="1599488228634">
-<attribute NAME="status" VALUE="3" OBJECT="org.freeplane.features.format.FormattedNumber|3"/>
-</node>
-</node>
-<node TEXT="nodo N.1.1.1.2.2.2" ID="ID_1149012663" CREATED="1599488228637" MODIFIED="1599488228639">
-<attribute NAME="status" VALUE="1" OBJECT="org.freeplane.features.format.FormattedNumber|1"/>
-</node>
-<node TEXT="nodo N.1.1.1.3" ID="ID_406641802" CREATED="1599488228642" MODIFIED="1599488228645">
-<attribute NAME="status" VALUE="3" OBJECT="org.freeplane.features.format.FormattedNumber|3"/>
-<node TEXT="nodo N.1.1.1.3.1.1" ID="ID_313322544" CREATED="1599488228647" MODIFIED="1599488228650">
-<attribute NAME="status" VALUE="2" OBJECT="org.freeplane.features.format.FormattedNumber|2"/>
-</node>
-<node TEXT="nodo N.1.1.1.3.2" ID="ID_1725945725" CREATED="1599488228651" MODIFIED="1599488228653">
-<attribute NAME="status" VALUE="2" OBJECT="org.freeplane.features.format.FormattedNumber|2"/>
-</node>
-</node>
-</node>
-<node TEXT="nodo N.1.3.1" ID="ID_1804924782" CREATED="1599488228656" MODIFIED="1599488228658">
-<attribute NAME="status" VALUE="1" OBJECT="org.freeplane.features.format.FormattedNumber|1"/>
-</node>
-<node TEXT="nodo N.1.3.2.1.1" ID="ID_44397400" CREATED="1599488228662" MODIFIED="1599488228664">
-<attribute NAME="status" VALUE="3" OBJECT="org.freeplane.features.format.FormattedNumber|3"/>
-<node TEXT="nodo N.1.3.2.1.1.2" ID="ID_1514755856" CREATED="1599488228666" MODIFIED="1599488228668">
-<attribute NAME="status" VALUE="2" OBJECT="org.freeplane.features.format.FormattedNumber|2"/>
-</node>
-</node>
-<node TEXT="nodo N.1.3.2.1.2" ID="ID_1143414561" CREATED="1599488228669" MODIFIED="1599488228670">
-<attribute NAME="status" VALUE="3" OBJECT="org.freeplane.features.format.FormattedNumber|3"/>
-</node>
-<node TEXT="nodo N.1.3.2.2" ID="ID_1677297233" CREATED="1599488228675" MODIFIED="1599488228678">
-<attribute NAME="status" VALUE="3" OBJECT="org.freeplane.features.format.FormattedNumber|3"/>
-</node>
-</node>
-<node TEXT="nodo N.2.2.2" ID="ID_837061391" CREATED="1599488228685" MODIFIED="1599488228688">
-<attribute NAME="status" VALUE="2" OBJECT="org.freeplane.features.format.FormattedNumber|2"/>
-<node TEXT="nodo N.2.2.2.1" ID="ID_1564374786" CREATED="1599488228688" MODIFIED="1599488228690">
-<attribute NAME="status" VALUE="2" OBJECT="org.freeplane.features.format.FormattedNumber|2"/>
-<node TEXT="nodo N.2.2.2.1.1" ID="ID_1266721653" CREATED="1599488228691" MODIFIED="1599488228693">
-<attribute NAME="status" VALUE="1" OBJECT="org.freeplane.features.format.FormattedNumber|1"/>
-<node TEXT="nodo N.2.2.2.1.1.2" ID="ID_1714422916" CREATED="1599488228695" MODIFIED="1599488228697">
-<attribute NAME="status" VALUE="1" OBJECT="org.freeplane.features.format.FormattedNumber|1"/>
-</node>
-</node>
-</node>
-<node TEXT="nodo N.2.2.2.3" ID="ID_102631570" CREATED="1599488228702" MODIFIED="1599488228705">
-<attribute NAME="status" VALUE="2" OBJECT="org.freeplane.features.format.FormattedNumber|2"/>
-</node>
-</node>
-<node TEXT="nodo N.2.2.3" ID="ID_1102931735" CREATED="1599488228705" MODIFIED="1599488228707">
-<attribute NAME="status" VALUE="2" OBJECT="org.freeplane.features.format.FormattedNumber|2"/>
 </node>
 </node>
 </node>
